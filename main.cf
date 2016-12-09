@@ -1,0 +1,11 @@
+myhostname = /etc/mailname
+mydomain = 
+
+smtpd_sender_restrictions =
+  permit_mynetwork,
+  permit
+
+smtpd_recipient_restrictions =
+  permit_mynetwork,
+  permit
+  
